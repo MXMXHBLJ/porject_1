@@ -1,0 +1,111 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body,html{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+a:hover,a:focus{
+	text-decoration: none;
+}
+
+
+
+
+			
+/* <!-- 导航栏 --> */
+.lzlj_nav{
+	background-color: #FFFFFF;
+}
+.lzlj_nav .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+}
+.lzlj_nav .navbar-brand {
+	    float: left;
+	    height: 50px;
+	    padding: 0;
+	    font-size: 18px;
+	    line-height: 20px;
+}
+.lzlj_nav .navbar-brand > img {
+    display: block;
+    height: 100%;
+}
+.lzlj_nav.navbar-default .navbar-nav > li > a {
+    color: #777;
+	display: block;
+    height: 100%;
+    font-size: 18px;
+}
+.lzlj_nav.navbar-default .navbar-nav > li > a.active {
+    border-bottom: 2px solid #b02b2b !important;
+}
+/* .lzlj_nav.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #b02b2b !important;
+    background-color: transparent;
+	border-bottom: 2px solid #b02b2b !important;
+} */
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+
+
+
+
+
+/* ========================================================== 1200px以上 =============================================================*/
+@media (min-width: 1200px){
+	.container {
+		width: 85%;
+	}
+	.container {
+		width: 85%;
+	}
+	.lzlj_nav .navbar-brand {
+	    float: left;
+	    height: 50px;
+	    padding: 0;
+	    font-size: 18px;
+	    line-height: 20px;
+	}
+	.lzlj_nav .navbar-brand img{
+	    height: 100%;
+	}
+	.lzlj_nav {
+	    height: 90px;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	}
+	.navbar-nav {
+		
+	}
+}
+/* ========================================================== 768以上  1200px以下 =============================================================*/
+@media (max-width:1200px) and (min-width:768px) {
+	.container{
+		width: 100%;
+	}
+	.lzlj_nav.navbar-default .navbar-nav > li > a {
+	    color: #777;
+	    display: block;
+	    height: 100%;
+	    font-size: 14px;
+	}
+}
+
+
+/* ========================================================== 375以上 =============================================================*/
+		
+		
